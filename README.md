@@ -1,11 +1,9 @@
-# ecommerce-beachwear-conversion
+# Ecommerce Beachwear Conversion Analysis
 
-Ecommerce Beachwear Conversion Analysis
-
-Course: Data Engineering for MADS — University of GroningenAssignment: Group 10, Assignment 2 (October 30 2024)Objective: Pinpoint the levers that can lift an online fashion retailer’s beachwear conversion rate by ≥ 1 percentage point.
+Project Assignment
+Objective: Pinpoint the levers that can lift an online fashion retailer’s beachwear conversion rate by ≥ 1 percentage point.
 
 Client identity anonymised as RetailCo for confidentiality.
-
 
 
 
@@ -136,7 +134,7 @@ See full interpretation and managerial actions in docs/Report.pdf.
 
 🤝 Authors
 
-Nils Depner · Daniel Hsu · Ruben Meijer · Erlangga RoesdyokoUniversity of Groningen — MSc MADS, Group 10
+Erlangga Roesdyoko · Daniel Hsu · Nils Depner · Ruben Meijer 
 
 📜 License
 
