@@ -68,12 +68,12 @@ Thanks to RetailCo for providing the anonymised click‑stream dataset and to KN
 ecommerce-beachwear-conversion/
 │
 ├── report/
-│   └── E-commerce Conversion Report.pdf        # Final written analysis
+│   └── E-commerce Conversion Report.pdf        
 │
 ├── SQL/
-│   └── SQL - Data Extraction.ipynb             # Raw SQL code + explanation
+│   └── SQL - Data Extraction.ipynb            
 │
-├── R/                                  # (Optional) Add your main R analysis files here
+├── R/                                 
 │
 ├── README.md
 └── .gitignore
