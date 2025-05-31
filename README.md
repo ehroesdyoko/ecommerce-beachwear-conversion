@@ -5,8 +5,6 @@ Objective: Pinpoint the levers that can lift an online fashion retailer’s beac
 
 Client identity anonymised as RetailCo for confidentiality.
 
-
-
 ✨ Project snapshot
 
 A full end‑to‑end data‑engineering and analytics workflow in R that marries:
@@ -45,53 +43,16 @@ Browse docs/Report.pdf for the finished write‑up.
 
 Source
 
-Notes
+RetailCo internal (NDA) - Four tables: events, customers, orders, articles — not redistributed. Replace the placeholder script R/02_download_internal.R with your own extract.
 
-RetailCo internal
+KNMI Royal Netherlands Met Institute - Daily weather for NL, 2021‑2022 (public).
 
-Four tables: events, customers, orders, articles — not redistributed. Replace the placeholder script R/02_download_internal.R with your own extract.
+JHU CSSE COVID‑19 - Netherlands cumulative cases.
 
-KNMI Royal Netherlands Met Institute
-
-Daily weather for NL, 2021‑2022 (public).
-
-JHU CSSE COVID‑19
-
-Netherlands cumulative cases.
-
-Google Trends
-
-Weekly search interest for swimwear, zwembroek, RetailCo, competitors.
+Google Trends - Weekly search interest for swimwear, zwembroek, RetailCo, competitors.
 
 For privacy & size reasons, the repo ships no raw data; only processed, de‑identified summaries live in data/processed/.
 
-🔄 Reproduce the analysis
-
-Step
-
-Script / Notebook
-
-Output
-
-1
-
-analysis/01_import_clean.Rmd
-
-Clean tables, impute missing with MICE, create Merged_Table.
-
-2
-
-analysis/02_explore.Rmd
-
-Descriptive stats & EDA plots.
-
-3
-
-analysis/03_model.Rmd
-
-Hypothesis tests (LM, Chi‑square, Granger), final figures.
-
-Continuous Integration (🔄 badge above) ensures all steps run on fresh clones via R CMD check.
 
 📊 Key results
 
@@ -107,9 +68,6 @@ See full interpretation and managerial actions in docs/Report.pdf.
 
 Erlangga Roesdyoko · Daniel Hsu · Nils Depner · Ruben Meijer 
 
-📜 License
-
-Distributed under the MIT License. See LICENSE for details.
 
 🙌 Acknowledgements
 
