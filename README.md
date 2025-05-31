@@ -21,23 +21,12 @@ The analysis tests 11 business hypotheses (demographics, device, seasonality, br
 
 🚀 Quick start
 
-Clone the repo and open the ecommerce-beachwear-conversion.Rproj file.
+## 🧪 Tools Used
 
-In the R console, restore the package library:
-
-install.packages("renv")
-renv::restore()
-
-Drop the proprietary CSV(s) from RetailCo into data/raw/ (see Data section).
-
-Knit the notebooks in order or simply run:
-
-source("R/data_prep.R")       # cleans & merges all sources
-rmarkdown::render("analysis/01_import_clean.Rmd")
-rmarkdown::render("analysis/02_explore.Rmd")
-rmarkdown::render("analysis/03_model.Rmd")
-
-Browse docs/Report.pdf for the finished write‑up.
+- **R**: Data cleaning, imputation (MICE), statistical modeling, and visualization
+- **SQL**: Data extraction
+- **Jupyter Notebook**: SQL queries demonstration
+- **ggplot2**, **dplyr**, **mice**, **lmtest**, **grangertest**
 
 📄 Data
 
@@ -72,3 +61,19 @@ Erlangga Roesdyoko · Daniel Hsu · Nils Depner · Ruben Meijer
 🙌 Acknowledgements
 
 Thanks to RetailCo for providing the anonymised click‑stream dataset and to KNMI, JHU CSSE, and Google Trends for open data services.
+
+## 📁 Repository Structure
+
+```bash
+ecommerce-beachwear-conversion/
+│
+├── report/
+│   └── E-commerce Conversion Report.pdf        # Final written analysis
+│
+├── SQL/
+│   └── SQL - Data Extraction.ipynb             # Raw SQL code + explanation
+│
+├── R/                                  # (Optional) Add your main R analysis files here
+│
+├── README.md
+└── .gitignore
